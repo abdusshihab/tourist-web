@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <title>toursit point</title>
+</head>
+<body>
+<body bgcolor=#00ffff>
+<center>
+<h1><font color=navy>Toursit point reg page</h1>
+<pre>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>
+	<b><font face="arial" size=+1 color=blue  >Name :</b>
+	</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td><b><font face="arial" size=+1 color=blue  >Password :</b></td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td><b><font face="arial" size=+1 color=blue  >Gender :</b></td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td><b><font face="arial" size=+1 color=blue  >Email :</b></td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td><b><font face="arial" size=+1 color=blue  >Phone no :</b></td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+ </pre>
+ </center>
+</body>
+</html>
