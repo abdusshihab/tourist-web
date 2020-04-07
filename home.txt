@@ -1,0 +1,75 @@
+<?php
+
+ include 'config.php';
+
+?>
+
+
+
+<!Doctype html>
+
+<html>
+
+<head>
+
+<title>TOURIST POINT</title>
+
+<h2 align="left" class="h"><i><font color=yellow>TOURIST POINT.com</font></i> </h2>
+
+</head>
+
+
+<body bgcolor=#191970 >
+
+<br><h1 align=left font face=garamond><s><font color=yellow>No need to pay! </font></s><br><font color=yellow>just simple check out for your toursit spot.</font></br></h1></br>
+<h3><font size=+4 color=yellow><i>Jaflong</i></font><h3>
+<img src ="jaflong.jpg"  height="300">
+</img>
+
+</body>
+
+<center>
+
+<div id="d">
+
+<img src="home3.jpg" height="100"></img>
+
+<center><br><form action="home.php" method="POST"></br>
+
+<input name="logout" type="submit" id="button" value="LOG-OUT">
+
+</input>
+
+</form></center>
+
+</center>
+
+<?php
+
+  if(isset($_POST['logout'])){
+
+	  
+
+	  echo"
+
+				<script>
+
+				alert('You are Successfully  Logged out');
+
+				window.location.href='login.php';
+
+				</script>
+
+				";
+
+  }else{}
+
+?>
+
+</div>
+
+</body>
+
+
+
+</html>
